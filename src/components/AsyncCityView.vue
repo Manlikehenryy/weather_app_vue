@@ -201,6 +201,9 @@ try {
 
   alert('City added successfully');
   }
+  else{
+    alert(result.data.message);
+  }
 
 } catch (error) {
   console.log(error.response.data.message)
