@@ -128,7 +128,7 @@
       class="flex items-center gap-2 py-3 text-white cursor-pointer duration-150 hover:text-green-500"
       @click="addCity" v-if="route.query.preview"
     >
-      <i class="fa-solid fa-trash"></i>
+      <i class="fa-solid fa-plus"></i>
       <p>Add City</p>
     </div>
     <div
